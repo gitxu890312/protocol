@@ -65,7 +65,7 @@ public class BIOClient implements Runnable{
 	}
 
 	public static void main(String[] args) throws IOException {
-		BIOClient sender = new BIOClient("127.0.0.1", 8080);
+		BIOClient sender = new BIOClient("127.0.0.1", 8866);
 		sender.init();
 		new Thread(sender).start();
 		Scanner scan = new Scanner(System.in);
